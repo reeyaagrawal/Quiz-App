@@ -22,14 +22,6 @@ A Java Swing based desktop Quiz Application connected with MySQL database.
 - MySQL
 - Eclipse IDE
 
-## Project Structure
-
-src/
-└── application/
-- Field.java
-- QuizApp.java
-- Result.java
-- ReviewAnswers.java
 
 ## Database
 
@@ -58,12 +50,11 @@ Table structure:
 
 ### 1. Clone repository
 
-git clone https://github.com/yourusername/Quiz-App.git
+git clone https://github.com/reeyaagrawal/Quiz-App.git
 
 ### 2. Add MySQL connector JAR
 
 Add:
-
 mysql-connector-j.jar
 to project build path.
 
@@ -76,7 +67,7 @@ CREATE DATABASE quiz_app;
 
 ### 4. Update database password
 
-Update your password in Java files:
+Update username and password of mysql in Java files:
 
 ```java
 DriverManager.getConnection(
